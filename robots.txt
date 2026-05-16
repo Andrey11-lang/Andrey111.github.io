@@ -1,0 +1,23 @@
+# Блок правил для Яндекса
+User-agent: Yandex
+Disallow:
+Host: https://Andrey11.ru
+# Блок правил для Google
+User-agent: Googlebot
+Allow: /
+Allow: /about/
+Allow: /catalog/
+Allow: /contacts/
+Disallow: /
+# Блок правил для других роботов
+User-agent: *
+Disable: /
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.mp4$
+# Сайт
+Sitemap: https://Andrey11.ru/sitemap.xml
+Redirect 301 /Задание 1.html https://Andrey2.ru/page2.html
